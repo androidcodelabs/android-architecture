@@ -1,3 +1,5 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">lifecycle</string>
+
+    <string name="seconds" tools:ignore="ExtraTranslation">%d seconds elapsed</string>
 </resources>
