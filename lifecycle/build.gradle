@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
-
+apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 'android-P'
 
@@ -21,6 +21,7 @@ dependencies {
     // androidX
     implementation 'androidx.appcompat:appcompat:' + rootProject.androidxCompatVersion
     implementation 'androidx.constraintlayout:constraintlayout:' + rootProject.androidxConstraintLayoutVersion
+    implementation 'androidx.core:core-ktx:' + rootProject.androidxCompatVersion
     // kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
