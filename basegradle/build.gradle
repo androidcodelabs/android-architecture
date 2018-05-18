@@ -1,6 +1,5 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
-
 apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 'android-P'
@@ -17,12 +16,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    // test
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test:runner:1.1.0-alpha2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0-alpha2'
-    // androidX
-    implementation 'androidx.appcompat:appcompat:' + rootProject.androidxCompatVersion
-    implementation 'androidx.constraintlayout:constraintlayout:' + rootProject.androidxConstraintLayoutVersion
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+
 }
