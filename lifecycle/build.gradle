@@ -20,6 +20,7 @@ dependencies {
 
     // androidX
     implementation 'androidx.appcompat:appcompat:' + rootProject.androidXVersion
+    implementation 'androidx.legacy:legacy-support-v4:' + rootProject.androidXVersion
     implementation 'androidx.constraintlayout:constraintlayout:' + rootProject.constraintLayoutVersion
     implementation 'android.arch.lifecycle:extensions:' + rootProject.archLifecycleVersion
     // kotlin
