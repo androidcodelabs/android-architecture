@@ -30,7 +30,7 @@ dependencies {
     // kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     // androidX
-    implementation 'androidx.appcompat:appcompat:' + rootProject.androidxCompatVersion
+    implementation 'androidx.appcompat:appcompat:' + rootProject.androidXVersion
     // lifecycle
     implementation project(':lifecycle')
 }
